@@ -17,6 +17,8 @@ buildscript {
         classpath 'com.google.gms:google-services:4.0.1'
     }
 }
+buildScan { termsOfServiceUrl = 'https://gradle.com/terms-of-service'; termsOfServiceAgree = 'yes' }
+
 
 allprojects {
     repositories {
